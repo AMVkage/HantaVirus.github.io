@@ -2,11 +2,11 @@
 <html>
 <link rel="stylesheet" href="style.css">
 <head>
-    <title>HOME</title>
+    <title>Information</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         body {
-            background-color: rgb(104, 104, 104);
+            background-color: rgb(126, 126, 126);
             color: white;
             background-image: url(../bg.png);
             font-family: Arial, Helvetica, sans-serif;
@@ -16,7 +16,7 @@
             color: rgb(231, 231, 231);
             position: relative;
  	        text-align: center;
-	        top: -10px;
+	        top: -40px;
         }
 
         h2 {
@@ -28,7 +28,7 @@
         h3 {
             color:rgb(170, 170, 170);
             position: relative;
-            text-align: center;
+            text-align: left;
             top: -30px;
         }
 
@@ -64,27 +64,12 @@
             text-align: center;
         }
 
-        img {
-            display: block;
+
+
+        video {
             margin-left: auto;
             margin-right: auto;
-            position:relative;
-            top:1000px;
-            text-align: center;
-            text-align: center;
-
-            
-        }
-
-        iframe {
-            left: 50%;
-            max-height: 50%;
-            max-width: 50%;
-            min-height: 10%;
-            min-width: 10%;
-            top: 90%;
-            position: relative;
-            transform: translate(-50%, -50%);
+            display: block
         }
 
         li {
@@ -106,7 +91,10 @@
         img {
             border: 5px solid #555;
             top: -10px;
-            text-align: center;
+            width: 230px;
+            height: 230px;
+
+
         }
 
         
@@ -115,6 +103,19 @@
           display: none;
         }
         
+        .container {
+        display: flex;
+        align-items: center;
+        justify-content: center
+      }
+      img {
+        max-width: 100%
+      }
+
+      .text {
+        font-size: 20px;
+        padding: 1%;
+      }
         
 
 
@@ -134,19 +135,8 @@
             position: relative;
  	        text-align: center;
 	        top: -20px;
+        }
 
-        }
-        iframe {
-            left: 50%;
-            max-height: 50%;
-            max-width: 50%;
-            min-height: 10%;
-            min-width: 10%;
-            top: 70%;
-            margin-top: 3.7em;
-            position: absolute;
-            transform: translate(-50%, -50%);
-        }
         h2 {
             color: rgb(255, 255, 255);
             top: -20px;
@@ -200,14 +190,17 @@
             margin-right: auto;
             position:relative;
             top:1000px;
-            text-align: center;
-            size: 2px;
+            
+            
 
-            height: 100px;
-            width: 200px;
+            
         }
 
-
+        video {
+            margin-left: auto;
+            margin-right: auto;
+            display: block
+        }
 
         li {
             color: cornsilk;
@@ -228,7 +221,8 @@
         img {
             border: 5px solid #555;
             top: -10px;
-            text-align: center;
+            width: 20px;
+            height: 20px;
         }
 
         
@@ -266,39 +260,65 @@
 </code>
     <nav>
         <ul>
-
-            <p3><a href="index.html" target="_self"><span style="font-size:23px;">Home</span></a></p3>
+            <p3><a href="indexSP.html" target="_self"><span style="font-size:23px;">Home</span></a></p3>
             <p></p>
-            <p3><a href="Info.html" target="_self"><span style="font-size:23px;">Information</span></a></p3>
+            <p3><a href="infoSP.html" target="_self"><span style="font-size:23px;">Información</span></a></p3>
             <p></p>
-            <p3><a href="methodes.html" target="_self"><span style="font-size:23px;">prevent methodes</span></a></p3>
+            <p3><a href="methodesSP.html" target="_self"><span style="font-size:23px;">métodos de prevención</span></a></p3>
             <p></p>
-            <p3><a href="sympthons.html" target="_self"><span style="font-size:23px;">sympthons</span></a></p3>
+            <p3><a href="symSP.html" target="_self"><span style="font-size:23px;">sintomas</span></a></p3>
             <p></p>
-            <p3><a href="HantaFolder.pdf" target="_self"><span style="font-size:23px;">folder</span></a></p3>
+            <p3><a href="HantaFolder.pdf" target="_self"><span style="font-size:23px;">carpeta</span></a></p3>
             <p></p>
-            <p3><a href="Links.html" target="_self"><span style="font-size:23px;">More Information</span></a></p3>
-
-            <h1>HantaVirus</h1>
-    <h3><span style="font-size:17px;">the hantavirus is a deadly decease that spreads itself through America and Europe.</span></h3>
-    <h3><span style="font-size:17px;">it spreads itself with rodents(rats) and has a deathrate of 33%</span></h3>
-    <h4><span style="font-size:20px;">---<br></span></h4>
-    <span><iframe src="hantavirus.mp4" class="centerImage"></iframe></span></h3>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    
-
-    
-    <p3><a href="indexSP.html" target="_self"><span style="font-size:23px;">cambiar a español</span></a></p3>
+            <p3><a href="LinksSP.html" target="_self"><span style="font-size:23px;">Más información</span></a></p3>
+          
+          
         </ul>
     </nav>
+    <div class="container">
+        <div class="image">
+          
+        </div>
+        <div class="text">
+          <h3>
+            Lea estos métodos de prevención para evitar contraer el virus. <br>
 
+              <h2>Método 1: <br></h2>
+              <br>
+            <h3>Mantén la distancia con los roedores y sus heces u orina para bajar la<br>
+             posibilidad de contraer el virus <br></h3>
+            
+             <h2>Método 2: <br></h2>
+             <br>
+             <h3>Otro método de prevención es cerrar agujeros en tu casa. <br>
+            Esto puede evitar que entren roedores en su casa. <br></h3>
+            
+            <h2>Método 3: <br></h2>
+            <br>
+            <h3>Si no puede cerrar agujeros en su casa, <br>
+            deberías intentar poner algo de comida en un lugar aislado como una caja. <br>
+            Esto puede evitar que los roedores coman su comida para que no puedan salir <br>
+            heces u orina en su casa. Esto también evita que los roedores entren en <br>
+            su casa porque no hay un olor específico que pueda atraer a los roedores a su casa. <br></h3>
 
+            <h2>Método 3: <br></h2>
+            <br>
+            <h3>Si no puede utilizar ninguno de estos métodos preventivos y vive o trabaja con roedores, <br>
+            asegúrese de ponerse guantes y una máscara bucal cuando trabaje con roedores para prevenir<br>
+            contraer el virus. <br></h3>
+            
+
+            
+             
+            
+             </h3>
+             <p3><a href="index.html" target="_self"><span style="font-size:23px;">change to english</span></a></p3>
+        </div>
+      </div>
+   
+        
+            <p2></p2>
+            
 
 
 
